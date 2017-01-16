@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./search-component.component.css']
 })
 export class SearchComponentComponent implements OnInit {
-
   private today:Object;
 
   constructor() {

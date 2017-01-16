@@ -1,0 +1,19 @@
+ul>li{
+    display: inline;
+    margin-left: 2%;
+    position: relative;
+    top: 12px;
+    color: white;
+    padding: 11px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    cursor: pointer;
+    font-size: 12px;
+}
+ul>li:hover{
+    padding: 11px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    background: #f6ac31;
+    color: black;
+}

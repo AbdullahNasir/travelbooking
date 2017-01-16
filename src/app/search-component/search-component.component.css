@@ -1,0 +1,19 @@
+.backgroundImage{
+    background-image: url("");
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100vh;
+}
+.formInputDate{
+    padding-left: 2px; padding-right: 4px;
+}
+#formMainRowCss{
+    height: 66px;
+    background: white;
+    border-radius: 0px 7px 7px 7px;
+    padding-top: 1%; 
+    border: 2px solid #7fb6d6; 
+    margin-left: 0%; 
+    padding-left: 6%;
+    width: 95%;
+}

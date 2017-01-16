@@ -9,13 +9,15 @@ import { MyDatePickerModule } from 'mydatepicker';
 import { AppComponent } from './app.component';
 import { SearchComponentComponent } from './search-component/search-component.component';
 import { ViewHeaderComponent } from './view-header/view-header.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponentComponent,
-    ViewHeaderComponent
+    ViewHeaderComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
