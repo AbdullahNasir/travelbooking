@@ -8,12 +8,14 @@ import { MyDatePickerModule } from 'mydatepicker';
 
 import { AppComponent } from './app.component';
 import { SearchComponentComponent } from './search-component/search-component.component';
+import { ViewHeaderComponent } from './view-header/view-header.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponentComponent
+    SearchComponentComponent,
+    ViewHeaderComponent
   ],
   imports: [
     BrowserModule,
