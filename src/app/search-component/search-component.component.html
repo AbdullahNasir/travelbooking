@@ -1,0 +1,17 @@
+<div>
+  <div class="col-sm-6 col-md-3">
+    <input class="form-control" placeholder="Enter Origin">
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <input class="form-control" type="text" placeholder="Enter Destination">
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <my-date-picker [selDate]="today" [options]="{inline:false}" (dateChanged)="onDateChanged($event)"></my-date-picker>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <my-date-picker [selDate]="today" [options]="{inline:false}" (dateChanged)="onDateChanged($event)"></my-date-picker>
+  </div>
+  <div class="col-xs-12">
+    <button class="btn btn-success form-control">Search</button>
+  </div>
+</div>
