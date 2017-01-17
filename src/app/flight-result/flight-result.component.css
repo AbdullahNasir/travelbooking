@@ -1,0 +1,62 @@
+/*General Classes*/
+.backgroundLightGrayColor{
+    background: #f2f2f2;
+}
+
+#flightResultFoundData .headingOne {
+    color:#006faf;
+    /*font-size: 20px;*/
+    font : bold 21px/15px Arial, Verdana, Sans-Serif;
+}
+#flightResultFoundData .paragraph {
+    color:#000;
+    line-height: 0px;
+    font-size:12px;
+}
+
+
+#flightResultFoundData .originToDestinationLocation{
+    height: 44px;
+    background: #006fae;
+    margin-top: 15px;
+    border-radius: 7px 7px 0px 0px;
+    color: white;
+    font: bold 16px/40px Arial, Verdana, Sans-Serif;
+    padding-left: 2%;
+}
+#flightResultFoundData .mainTableHeader table{
+    margin-top:2%;
+}
+#flightResultFoundData table>thead>tr>th{
+    padding: 1%;
+    color:#646464;
+}
+#flightResultFoundData .parentDivToShowData{
+    border: 1px solid #CCC;
+    margin-top: 3%;
+    border-radius: 7px 7px 7px 7px;
+}
+
+#flightResultFoundData .parentDivToShowData table>tbody>tr>td:first-child{
+    padding: 1%;
+    color:#646464;
+}
+#flightResultFoundData .outBoundFlight{
+    background: #006fae;
+    color:#fff;
+    font: bold 14px/34px Arial, Verdana, Sans-Serif;
+}
+
+#flightResultFoundData .selectButton{
+    color:#fff;
+    background-color: #f6ac30;
+    border-color: #f6ac30;width:50%;
+}
+
+#flightResultFoundData .costIncludes{
+    border-top:1px solid #CCC;
+}
+
+#flightResultFoundData .tdShowContentStyleData{
+    border: 1px solid #CCC;border-bottom:none; text-align: center
+}

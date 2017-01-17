@@ -8,7 +8,6 @@ import { CompleterService, CompleterData } from 'ng2-completer';
   styleUrls: ['./search-component.component.css']
 })
 export class SearchComponentComponent implements OnInit {
-
   private today:Object;
   bookingData: Booking;
   private origin: String;

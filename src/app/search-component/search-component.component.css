@@ -1,0 +1,31 @@
+.backgroundImage{
+   
+    background: url('../../assets/images/banner-616.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  left: 0;
+}
+.formInputDate{
+    padding-left: 2px; padding-right: 4px;
+}
+#formMainRowCss{
+    /*height: 66px;*/
+    background: white;
+    border-radius: 0px 7px 7px 7px;
+    padding-top: 1%; 
+    border: 2px solid #7fb6d6; 
+    margin-left: 0%; 
+    padding-left: 6%;
+    width: 95%;
+}
