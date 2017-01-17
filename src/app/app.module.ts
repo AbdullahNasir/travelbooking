@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { MyDatePickerModule } from 'mydatepicker';
-
+import { Ng2CompleterModule } from "ng2-completer";
 
 import { AppComponent } from './app.component';
 import { SearchComponentComponent } from './search-component/search-component.component';
@@ -19,7 +19,8 @@ import { SearchComponentComponent } from './search-component/search-component.co
     BrowserModule,
     FormsModule,
     HttpModule,
-    MyDatePickerModule
+    MyDatePickerModule,
+    Ng2CompleterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
