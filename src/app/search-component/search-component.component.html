@@ -16,7 +16,9 @@
         <my-date-picker [selDate]="today" [options]="{inline:false}" (dateChanged)="onDateChanged($event)"></my-date-picker>
       </div>
       <div class="col-sm-6 col-md-2">
-        <button class="btn form-control" style="color:#fff;background-color: #f6ac30;border-color: #f6ac30;">Search</button>
+        <button class="btn form-control" style="color:#fff;background-color: #f6ac30;border-color: #f6ac30;" routerLink="/flightResult">
+          Search
+        </button>
       </div>
    </div> 
   </div>
