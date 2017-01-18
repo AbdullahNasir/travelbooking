@@ -6,7 +6,6 @@
   -o-background-size: cover;
   background-size: cover;
   min-height: 100%;
-  min-width: 1024px;
 	
   /* Set up proportionate scaling */
   width: 100%;
@@ -17,7 +16,8 @@
   left: 0;
 }
 .formInputDate{
-    padding-left: 2px; padding-right: 4px;
+    padding-left: 2px;
+    margin-bottom: 5px;
 }
 #formMainRowCss{
     /*height: 66px;*/
