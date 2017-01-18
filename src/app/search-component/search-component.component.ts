@@ -12,7 +12,8 @@ export class SearchComponentComponent implements OnInit {
   private today:Object;
   bookingData: Booking;
   private origin: String;
-
+  private selectedOrigin : string;
+  private selectedDestination : string;   
   private searchStr: string;
   
   private searchData = {
