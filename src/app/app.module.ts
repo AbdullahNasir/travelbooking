@@ -27,7 +27,7 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponentComponent
+    SearchComponentComponent,
     ViewHeaderComponent,
     NavbarComponent,
     TestComponentComponent,

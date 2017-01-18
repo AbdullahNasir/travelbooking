@@ -1,36 +1,19 @@
-<<<<<<< HEAD
-<div>
-  <div class="col-sm-6 col-md-3">
-    <ng2-completer [(ngModel)]="origin" inputClass="form-control" placeholder="Enter origin" [dataService]="dataService" [minSearchLength]="0"></ng2-completer>
-  </div>
-  <div class="col-sm-6 col-md-3">
-    <ng2-completer  [(ngModel)]="destination" inputClass="form-control" placeholder="Enter destination" [dataService]="dataService" [minSearchLength]="0"></ng2-completer>
-  </div>
-  <div class="col-sm-6 col-md-3">
-    <my-date-picker [selDate]="today" [options]="{inline:false}" (dateChanged)="fromDateChanged($event)"></my-date-picker>
-  </div>
-  <div class="col-sm-6 col-md-3">
-    <my-date-picker [selDate]="today" [options]="{inline:false}" (dateChanged)="toDateChanged($event)"></my-date-picker>
-  </div>
-  <div class="col-xs-12">
-    <button class="btn btn-success form-control">Search</button>
-=======
 <div class="backgroundImage" >
 
 <div style="position:absolute;top:35%;width:100%;">
   <div class="container">
    <div class="row" id="formMainRowCss">
      <div class="col-sm-6 col-md-2 formInputDate" >
-      <input class="form-control" placeholder="Enter Origin" >
+      <ng2-completer [(ngModel)]="origin" inputClass="form-control" placeholder="Enter origin" [dataService]="dataService" [minSearchLength]="0"></ng2-completer>
       </div>
       <div class="col-sm-6 col-md-2 formInputDate">
-        <input class="form-control" type="text" placeholder="Enter Destination" >
+        <ng2-completer  [(ngModel)]="destination" inputClass="form-control" placeholder="Enter destination" [dataService]="dataService" [minSearchLength]="0"></ng2-completer>
       </div>
       <div class="col-sm-6 col-md-3 formInputDate">
         <my-date-picker [selDate]="today" [options]="{inline:false}" (dateChanged)="onDateChanged($event)"></my-date-picker>
       </div>
       <div class="col-sm-6 col-md-3">
-        <my-date-picker [selDate]="today" [options]="{inline:false}" (dateChanged)="onDateChanged($event)"></my-date-picker>
+        <my-date-picker [selDate]="today" [options]="{inline:false}" (dateChanged)="toDateChanged($event)"></my-date-picker>
       </div>
       <div class="col-sm-6 col-md-2">
         <button class="btn form-control" style="color:#fff;background-color: #f6ac30;border-color: #f6ac30;" routerLink="/flightResult">
@@ -38,7 +21,6 @@
         </button>
       </div>
    </div> 
->>>>>>> origin/master
   </div>
 </div>
 </div>

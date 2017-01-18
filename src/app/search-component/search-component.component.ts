@@ -11,7 +11,6 @@ export class SearchComponentComponent implements OnInit {
   private today:Object;
   bookingData: Booking;
   private origin: String;
-
   private searchStr: string;
   private dataService: CompleterData;
   private searchData = [
@@ -27,7 +26,7 @@ export class SearchComponentComponent implements OnInit {
 
   constructor(completerService: CompleterService) {
     this.today = {year: 2017, month: 1, day: 4};
-    this.dataService = completerService.local(this.searchData, 'color', 'color');
+    this.dataService = completerService.local(this.searchData, 'color', 'value');
   }
 
   ngOnInit() {
