@@ -4,7 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import { MyDatePickerModule } from 'mydatepicker';
-import { Ng2CompleterModule } from "ng2-completer";
+import { Ng2AutoCompleteModule } from 'ng2-auto-complete';
+// import { Ng2CompleterModule } from "ng2-completer";
 
 import { AppComponent } from './app.component';
 import { SearchComponentComponent } from './search-component/search-component.component';
@@ -40,7 +41,7 @@ const appRoutes: Routes = [
     HttpModule,
     MyDatePickerModule,
     RouterModule.forRoot(appRoutes),
-    Ng2CompleterModule
+    Ng2AutoCompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
